@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Roma's Portfolio</title>
+		<meta content="" name="author">
+		<meta content="" name="description">
+		<meta content="" name="keywords">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<meta content="ie=edge" http-equiv="x-ua-compatible">
+		<link rel="icon" type="image/png" href="assets/img/mount.png">
+		<link rel="apple-touch-icon" href="assets/img/mount.png">
+		<link rel="stylesheet" href="/assets/css/app.css">
+		<script src="/assets/js/app.js" defer></script><!--[if lt IE 9]>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+	</head>
+	<body class="table-box">
+		<div id="preloader">
+			<div id="preloader__progress">
+				<div id="preloader-svg__percentage">0</div>
+				<svg version="1.1" id="preloader-svg__img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="144px" height="144px" viewBox="0 0 144 144" enable-background="new 0 0 144 144" xml:space="preserve">
+					<circle opacity="0.4" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-dasharray="439.822971503" stroke-dashoffset="439.822971503" stroke-miterlimit="10" enable-background="new" cx="72" cy="72" r="70" transform="rotate(-160 72 72)" class="bar bar__outer"></circle>
+					<circle opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="3.8938" stroke-dasharray="345.575191895" stroke-dashoffset="345.575191895" stroke-miterlimit="10" enable-background="new" cx="72" cy="72" r="55" transform="rotate(-120 72 72)" class="bar bar__center"></circle>
+					<circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="251.327412287" stroke-dashoffset="251.327412287" cx="72" cy="72" r="40" transform="rotate(-90 72 72)" class="bar bar__inner"></circle>
+				</svg>
+			</div>
+		</div><!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>old</strong> browser. Please <a href="http://browsehappy.com/">update it</a></p>
+		<![endif]-->
+		<div class="parallax-wrapper">
+			<ul id="scene" class="axis">
+				<li data-depth='0' class="layer">
+					<div class="layer-bg layer-bg_0"></div>
+				</li>
+				<li data-depth='0.1' class="layer">
+					<div class="layer-bg layer-bg_1"></div>
+				</li>
+				<li data-depth='0.2' class="layer">
+					<div class="layer-bg layer-bg_2"></div>
+				</li>
+				<li data-depth='0.30000000000000004' class="layer">
+					<div class="layer-bg layer-bg_3"></div>
+				</li>
+				<li data-depth='0.4' class="layer">
+					<div class="layer-bg layer-bg_4"></div>
+				</li>
+				<li data-depth='0.5' class="layer">
+					<div class="layer-bg layer-bg_5"></div>
+				</li>
+				<li data-depth='0.6000000000000001' class="layer">
+					<div class="layer-bg layer-bg_6"></div>
+				</li>
+				<li data-depth='0.7000000000000001' class="layer">
+					<div class="layer-bg layer-bg_7"></div>
+				</li>
+				<li data-depth='0.8' class="layer">
+					<div class="layer-bg layer-bg_8"></div>
+				</li>
+				<li data-depth='0.9' class="layer">
+					<div class="layer-bg layer-bg_9"></div>
+				</li>
+			</ul>
+		</div>
+		<div class="b-container"></div>
+		<div id="popup1" class="b-popup">
+			<div class="b-popup-content"><i class="fa fa-times popup-button"></i>
+				<p class="popup-text">Fill in all the fields !</p>
+			</div>
+		</div>
+		<header class="header header_welcome table-box__top">
+			<div class="container container_padded">
+				<button class="login-button">Login</button>
+			</div>
+		</header>
+		<div class="table-box__middle">
+			<div class="vertical-aligned perspective-box">
+				<div class="flip-card">
+					<div class="flip-card__front-side">
+						<div class="author-bio">
+							<div class="avatar"><img src="/assets/img/me.jpg" title="Roma Storozhuk"/></div>
+							<p class="author-bio__name">Roma Storozhuk</p>
+							<p class="author-bio__description">Frontend devoloper</p>
+							<ul class="social-links">
+								<li class="social-links__item social-links__item_welcome"><a href="https://www.facebook.com/roman.storozhuk.395" target="_blank" class="social-links__link fa fa-facebook"></a></li>
+								<li class="social-links__item social-links__item_welcome"><a href="https://github.com/RomaSto" target="_blank" class="social-links__link fa fa-github-alt"></a></li>
+								<li class="social-links__item social-links__item_welcome"><a href="#" target="_blank" class="social-links__link fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+						<ul class="form-buttons">
+							<li class="form-buttons__button"><a href="works.html" class="preload-link form-buttons__button-content">Works</a></li>
+							<li class="form-buttons__button"><a href="about.html" class="preload-link form-buttons__button-content">About</a></li>
+							<li class="form-buttons__button"><a href="blog.html" class="preload-link form-buttons__button-content">Blog</a></li>
+						</ul>
+					</div>
+					<div class="flip-card__back-side">
+						<form id="login">
+							<div class="login-form">
+								<h3 class="sidestripes">Autorization</h3>
+								<label class="login-form__label login-form__label_text">
+									<input placeholder="Login" type="text" id="text" class="input input_text"/><span class="fa fa-user"></span>
+								</label>
+								<label class="login-form__label login-form__label_text">
+									<input placeholder="Password" type="password" id="password" class="input input_text"/><span class="fa fa-key"></span>
+								</label>
+								<label class="login-form__label login-form__label_checkbox">
+									<input type="checkbox" name="robot_check" value="not a robot" class="input input_checkbox"/><span>I am a human</span>
+								</label>
+								<p class="login-form__plain-text">Are you really not a robot?</p>
+								<label class="login-form__label login-form__label_radio">
+									<input type="radio" name="robot_radio" value="shure" class="input input_radio"/><span>Yes</span>
+								</label>
+								<label class="login-form__label login-form__label_radio">
+									<input type="radio" name="robot_radio" value="who knows" class="input input_radio"/><span>No</span>
+								</label>
+							</div>
+							<ul class="form-buttons">
+								<li class="form-buttons__button form-buttons__button_even">
+									<button id="unflip-card" class="form-buttons__button-content">Home page</button>
+								</li>
+								<li class="form-buttons__button form-buttons__button_even">
+									<button id="log-me" class="form-buttons__button-content">Login</button>
+								</li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer footer_welcome table-box__bottom">
+			<div class="container container_padded"><span class="copyright">&copy; Roma Storozhuk</span><span class="copyright copyright_slogan">Made at home</span><span class="copyright copyright_year">2016</span></div>
+		</footer><!--[if lt IE 9]>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+		<script src="/assets/js/libs.js" defer></script>
+		<script src="/assets/js/app.js" defer></script>
+	</body>
+</html>
